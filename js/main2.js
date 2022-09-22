@@ -2,7 +2,7 @@
 // styleArray = ['flex1', 'flex2','flex3', 'flex4']
 styleArray = ['flex1', 'flex2', 'flex3', 'flex4', 'flex5', 'flex6', 'flex7', 'flex8', 'flex9', 'flex10', 'flex11', 'flex12', 'flex13', 'flex14', 'flex15', 'flex16', 'flex17', 'flex18', 'flex19', 'flex20', 'flex21', 'flex22', 'flex23', 'flex24']
 
-//create the functions
+//create the functions -- which of these are redundant?
 function flex1(){
     document.querySelector('.lDiv').style = 'align-content: space-around'
     document.querySelector('#showAnswer').innerText = 'align-content: space-around'
@@ -120,7 +120,7 @@ function randomFunction(input_array){
     return result;
 }
 
-//call the function using the returned index result
+//call the function using the returned index result -- how could this be written differently?
 function callAFunction(function_name){
     if (function_name == 'flex1'){
         flex1();
@@ -196,7 +196,7 @@ function callAFunction(function_name){
     }
 }
 
-//break this down with pseudo code
+//break this down with pseudo code -- what is happening here?
 
 function main(){
     randomString = randomFunction(styleArray);
