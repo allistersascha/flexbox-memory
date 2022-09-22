@@ -1,5 +1,4 @@
 //create the array
-// styleArray = ['flex1', 'flex2','flex3', 'flex4']
 styleArray = ['flex1', 'flex2', 'flex3', 'flex4', 'flex5', 'flex6', 'flex7', 'flex8', 'flex9', 'flex10', 'flex11', 'flex12', 'flex13', 'flex14', 'flex15', 'flex16', 'flex17', 'flex18', 'flex19', 'flex20', 'flex21', 'flex22', 'flex23', 'flex24']
 
 //create the functions -- which of these are redundant?
@@ -100,17 +99,17 @@ function flex24(){
     document.querySelector('#showAnswer').innerText = 'flex-direction: row-reverse'
 }
 
-//hint button toggles showing the answer
+//hint button toggles showing the answer by toggling the id showAnswer
 function hint(){
     document.querySelector('#showAnswer').classList.toggle ('hidden')
 }
-//declare a function that picks randomly from the array parameter 
+//declare a function
 function randomFunction(input_array){
 
     //declare a variable to set the upper bound of the array
     max = input_array.length;
 
-    //declare a variable to pull an index randomly from the array
+    //declare a variable to pull an index randomly from the array. What is Math.flor? What is Math.random? Why is it multiplied by max?
     randomIndex = Math.floor((Math.random() * max));
 
     //declare a variable that records the result
@@ -196,7 +195,7 @@ function callAFunction(function_name){
     }
 }
 
-//break this down with pseudo code -- what is happening here?
+//break the following down with pseudo code: what is happening in this function?
 
 function main(){
     randomString = randomFunction(styleArray);
@@ -209,42 +208,3 @@ document.querySelector('#question').addEventListener ('click', main)
 
 //add an eventListener to toggle the style of #showAnswer
 document.querySelector('#answer').addEventListener('click', hint)
-
-
- 
-// flex-direction: column
-// flex-direction: column-reverse
-// justify-content: flex-start
-// justify-content: flex-end
-// justify-content: center
-// justify-content: space-between
-// justify-content: space-around
-// justify-content: space-evenly
-// align-items: flex-start
-// align-items: flex-end
-// align-items: center
-// align-items: stretch
-// align-items: baseline
-// align-content: flex-start
-// align-content: flex-end 
-// align-content: center
-// align-content: stretch
-// align-content: space-between
-// align-content: space-around
-// gap: 
-// row-gap: 
-// column-gap:
-// order:
-
-
-
-
-
-//Hint button reveals the property that is being modified
-
-//Answer button reveals the entire string that was changed
-
-//Or - user types in the answer
-
-
-// flex-direction: row 
