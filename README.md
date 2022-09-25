@@ -1,1 +1,1 @@
-A basic, light-weight study guide designed for a new engineer.
+Flexbox Memory is a basic, light-weight study guide designed for a new developer to learn about CSS tools and JavaScript array functions. The front end of Flexbox Memory represents a rough study guide, however, the real goal of writing this code was to provide a new developer an example of how arrays work in JavaScript and showcase a simple CSS layout as notated in the psuedocode.
